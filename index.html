@@ -81,6 +81,14 @@
       justify-content: center;
       align-items: center;
       color: hsl(0, 0%, 100%);
+      transition: color 0.3s ease;
+    }
+
+    .list>div:hover,
+    .list>div:active {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+      /* Change the color to green on hover or active */
     }
 
 
@@ -91,6 +99,15 @@
 
     .attribution a {
       color: hsl(228, 45%, 44%);
+    }
+
+
+    @media (min-width: 1440px) {
+      .container {
+        height: 70vh;
+        width: 25%;
+
+      }
     }
   </style>
 </head>
